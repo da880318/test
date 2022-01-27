@@ -1,0 +1,45 @@
+.headline{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom:15px ;
+    text-align:center;
+}
+.ohya{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    list-style: none;
+    
+    
+}
+.aaa{
+    margin-left: 30px;
+    font-size: 20px;
+    
+}
+
+@media (max-width:1250px){
+    /*螢幕寬度小於1250px, 套用這個區塊的CSS*/
+    .list{
+        flex-wrap: wrap;
+    }
+    .product{
+        width: 45%;
+    }
+}
+@media (max-width:500px){
+    /*螢幕寬度小於500px, 套用這個區塊的CSS*/
+    .headline{
+        font-size: 20px;
+    }
+    .desktop-menu{
+        display: none;
+     
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .product{
+        width: 90%;/*手機調成90%才會自動換行*/
+    }
+}
